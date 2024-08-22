@@ -37,14 +37,6 @@ plugins:
   - search
 
 edit_uri: blob/master/docs
-markdown_extensions:
-  - pymdownx.tabbed
-  - pymdownx.keys
-  - pymdownx.snippets
-  - pymdownx.inlinehilite
-  - admonition
-  - pymdownx.details
-  - pydownx.superfences
 
 nav:
   - Home: index.md
