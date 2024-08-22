@@ -74,7 +74,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-This project is an exploration of my passions and skills in the field of C++ programming, game development, and robotics. It serves as a comprehensive knowledge base that documents my journey and learnings in these areas. 
+This project is JetOBot an exploration of my passions and skills in the field of C++ programming, game development, and robotics. It serves as a comprehensive knowledge base that documents my journey and learnings in these areas. 
 
 I created this project for a great cause: to inspire others and contribute to the community by sharing my knowledge and experiences. Here's why I embarked on this journey:
 * **Learning C++**: I've always wanted to deepen my understanding of C++ and build a solid foundation in this powerful programming language.
