@@ -52,7 +52,9 @@ nav:
           - Road Following: examples/basic/road_following.md
           - Object Following: examples/basic/object_following.md
       - Intermediate Examples:
+          - ROS 2: examples/intermediate/ros2.md
       - Advance Examples:
+          - Isaac Sim: examples/advance/isaac_sim.md
   - Reference:
       - Contributing: CONTRIBUTING.md
       - Changes: CHANGELOG.md
