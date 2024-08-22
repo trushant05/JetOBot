@@ -4,7 +4,6 @@ theme:
     logo: assets/img/logo.png
     features:
         - navigation.tabs
-        - navigation.tabs.sticky
         - navigation.sections
         - navigation.path
         - navigation.indexes
@@ -31,6 +30,23 @@ theme:
     font:
         text: Roboto
         code: Roboto Mono
+
+repo_url: https://github.com/trushant05/JetOBot
+
+plugins:
+  - search
+
+edit_uri: blob/master/docs
+markdown_extensions:
+  - pymdownx.tabbed
+  - pymdownx.keys
+  - pymdownx.snippets
+  - pymdownx.inlinehilite
+  - pymdownx.highlight:
+      use_pygements: true
+  - admonition
+  - pymdownx.details
+  - pydownx.superfences
 
 nav:
   - Home: index.md
