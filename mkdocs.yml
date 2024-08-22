@@ -1,11 +1,14 @@
-site_name: My Docs Template
+site_name: JetOBot
 theme:
     name: material
+    logo: assets/img/logo.png
     features:
         - navigation.tabs
+        - navigation.tabs.sticky
         - navigation.sections
+        - navigation.path
+        - navigation.indexes
         - toc.integrate
-        - navigation.top
         - search.suggest
         - search.highlight
         - content.tabs.link
@@ -17,14 +20,23 @@ theme:
           toggle:
             icon: material/toggle-switch-off-outline
             name: Switch to dark mode
-          primary: teal
+          primary: black
           accent: purple
         - scheme: slate
           toggle:
             icon: material/toggle-switch
             name: Switch to light mode
-          primary: teal
+          primary: black
           accent: lime
+    font:
+        text: Roboto
+        code: Roboto Mono
+
+nav:
+  - Home: index.md
+
+extra_css:
+    - assets/css/extra.css   
 
 extra:
    social:
