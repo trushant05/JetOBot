@@ -34,6 +34,29 @@ theme:
 
 nav:
   - Home: index.md
+  - Getting Started: getting_started.md
+  - Bill of Materials: bill_of_materials.md
+  - Hardware Setup: 
+      - 3D Printing: hardware_setup/3d_printing.md
+      - Assembly: hardware_setup/assembly.md
+  - Software Setup:
+      - Using SD Card Image: software_setup/sd_card.md
+      - WiFi Setup: software_setup/wifi_setup.md
+      - Using Docker Container: software_setup/docker.md
+      - Native setup from scratch (No docker): software_setup/native_setup.md
+  - Examples:
+      - Basic Examples:
+          - Simple Motion: examples/basic/simple_motion.md
+          - Teleoperation: examples/basic/teleoperation.md
+          - Collision Avoidance: examples/basic/collision_avoidance.md
+          - Road Following: examples/basic/road_following.md
+          - Object Following: examples/basic/object_following.md
+      - Intermediate Examples:
+      - Advance Examples:
+  - Reference:
+      - Contributing: CONTRIBUTING.md
+      - Changes: CHANGELOG.md
+      - Docker Tips: reference/docker_tips.md
 
 extra_css:
     - assets/css/extra.css   
